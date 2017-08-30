@@ -30,6 +30,7 @@ def prime_sum(number, limit):
 	p_sum = 0
 	for n in get_prime(number, limit):
 		p_sum += n
+		print(n, p_sum)
 	return p_sum
 
 
